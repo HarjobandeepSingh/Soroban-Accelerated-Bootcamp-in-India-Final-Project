@@ -1,0 +1,179 @@
+*{
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -10px;
+}
+nav .logo{
+    font-size: 1.5rem;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.40625rem;
+    letter-spacing: -0.01688rem;
+    padding-left: 25px;
+}
+nav ul{
+    display : flex;
+    list-style-type : none;
+    padding-right: 40px;
+
+}
+nav ul li {
+    font-weight: 500;
+    line-height: 3.75rem;
+    letter-spacing: 0.099rem;
+}
+.g{
+    padding-right: 80px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0rem 0rem 0rem;
+}
+.hero_img{
+    background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position-y: bottom;
+    background-size: cover;
+    border-radius: 0.75rem;
+    display: flex;
+    padding: 1rem 0rem 0rem 3em;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 80rem;
+    height: 32rem;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.hero_img .btn{
+    border-radius: 1.5rem;
+    background: #1FD185;
+    display: flex;
+    width: 13.6055rem;
+    height: 2.8rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-shrink: 0;
+}
+.hero_img h1{
+    color: #FFF;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 3.75rem; /* 125% */
+    letter-spacing: -0.099rem;
+}
+.unlocked{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5rem 3.5rem 5rem 3.5rem;
+}
+.unlocked h1{
+    text-align: left;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.capsule{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.cap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.2rem #F3F3F3;
+    border-radius: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.cap img{
+    width: 19rem;
+    height: 10rem;
+    border-radius: 2rem
+}
+.willunlocked{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5rem 3.5rem 5rem 3.5rem;
+}
+.willunlocked h1{
+    text-align: left;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem 5rem 0rem;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.2rem #F3F3F3;
+}
+input{
+    width: 29rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F3F3F3;
+    padding: 0rem 0.5rem;
+    margin-bottom: 1rem;
+}
+label{
+    font-weight: 500;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+.btn1{
+    border-radius: 0.5rem;
+    background: #1FD185;
+    display: flex;
+    width: 29rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+footer a{
+    margin-left: 20px;
+}
